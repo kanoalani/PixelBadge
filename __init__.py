@@ -39,7 +39,7 @@ def init():
 def callback_button_up(buttohttps://github.com/kanoalani/PixelBadge.gitn_is_down):
     if button_is_down:
         global pixel_speed
-        pixel_speed = pixel_speed * 1
+        pixel_speed = pixel_speed * 1.2
         pass
 
 

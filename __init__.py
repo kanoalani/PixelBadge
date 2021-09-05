@@ -6,7 +6,7 @@ import buttons, defines
 rgb.clear()
 
 pixels = []
-pixel_speed = 0.05
+pixel_speed = 0.01
 
 
 def createpixels(x, y):
@@ -36,10 +36,10 @@ def init():
         rgb.pixel((x[2], x[3], x[4]), (x[0], x[1]))
 
 
-def callback_button_up(button_is_down):
+def callback_button_up(buttohttps://github.com/kanoalani/PixelBadge.gitn_is_down):
     if button_is_down:
         global pixel_speed
-        pixel_speed = pixel_speed * 1.2
+        pixel_speed = pixel_speed * 1
         pass
 
 
